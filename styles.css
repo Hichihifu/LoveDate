@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://cdn.donmai.us/original/10/1b/__shirakami_fubuki_and_ookami_mio_hololive_drawn_by_momone_cco__101b318e607da763a195a6fc47d625dc.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Các phần tử được sắp xếp theo chiều dọc */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    margin-bottom: 30%;
+    transition: all 0.3s ease; /* Hiệu ứng hover */
+}
+
+.container:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* Sáng hơn khi hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Tăng độ bóng khi hover */
+    transform: scale(1.05); /* Tăng kích thước nhẹ khi hover */
+}
+
+#current-day {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px; /* Khoảng cách giữa ngày và thời gian */
+}
+
+#current-time {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px; /* Khoảng cách giữa thời gian và số ngày */
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px; /* Khoảng cách giữa h1 và result */
+}
+
+.result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+    margin-top: 10px; /* Khoảng cách giữa số ngày và thời gian */
+}
